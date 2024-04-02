@@ -2,14 +2,12 @@ body {
     display: flex;
     align-items: center;
     font-family: Arial, sans-serif;
-    margin: 0;
     justify-content: center;
-    height: 200vh;
-    margin: 0;
+    height: auto;
 }
 
 .table-left{
-    width: 30%;
+    width: 20%;
     float: left;
 }
 
@@ -20,14 +18,14 @@ body {
 
 .table-left th,
 .table-left td {
-    padding: 8px;
+    padding: 5px;
     font-size: small;
     text-align: center;
     border: 1px solid black;
 }
 
 .table-wrapper {
-    width: 70%;
+    width: 80%;
     float: right;
     overflow-x: auto;
 }
@@ -40,9 +38,10 @@ body {
 
 .table-wrapper th,
 .table-wrapper td {
-    padding: 8px;
+    padding: 5px;
     font-size: small;
     text-align: center;
+    white-space: nowrap;
 }
 
 .table-wrapper th {

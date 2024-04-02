@@ -1,441 +1,487 @@
 <!DOCTYPE html>
 <html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>demmo</title>
+    <link rel="stylesheet" href="csss.css" />
+    <style></style>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>demmo</title>
-  <link rel="stylesheet" href="csss.css" />
-  <style>
-    
-  </style>
-</head>
+  <body>
+    <div class="container">
+      <div class="table-left">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="3">年度</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th rowspan="4">年齢</th>
+              <td colspan="2">配偶者</td>
+            </tr>
+            <tr>
+              <td colspan="2">あなた</td>
+            </tr>
+            <tr>
+              <td colspan="2">第1子</td>
+            </tr>
+            <tr>
+              <td colspan="2">第2子</td>
+            </tr>
 
-<body>
-  <div class="container">
-    <div class="table-left">
-      <table>
-        <thead>
-          <tr>
-            <th colspan="3">年度</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>年齢</th>
-            <td colspan="2">配偶者</td>
-          </tr>
-        </tbody>
-      </table>
+            <tr>
+              <th rowspan="4">
+                ラ <br />イ<br />フ<br />イ<br />ベ<br />ン<br />ト
+              </th>
+              <td colspan="2">配偶者</td>
+            </tr>
+            <tr>
+              <td colspan="2">あなた</td>
+            </tr>
+            <tr>
+              <td colspan="2">第1子</td>
+            </tr>
+            <tr>
+              <td colspan="2">第2子</td>
+            </tr>
+            <tr>
+              <th rowspan="6">収入</th>
+              <td rowspan="2">年収</td>
+              <td>あなた</td>
+            </tr>
+            <tr>
+              <td>配偶者</td>
+            </tr>
+            <tr>
+              <td rowspan="2">年金</td>
+              <td>あなた</td>
+            </tr>
+            <tr>
+              <td>配偶者</td>
+            </tr>
+            <tr>
+              <td colspan="2">その他収入</td>
+            </tr>
+            <tr>
+              <th colspan="2">その他収入</th>
+            </tr>
+
+            
+          </tbody>
+        </table>
+      </div>
+
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr class="thead-year">
+              <th colspan="3">年度</th>
+              <th align="center" class="cf-top-header">2024</th>
+              <th align="center" class="cf-top-header">2025</th>
+              <th align="center" class="cf-top-header">2026</th>
+              <th align="center" class="cf-top-header">2027</th>
+              <th align="center" class="cf-top-header">2028</th>
+              <th align="center" class="cf-top-header">2029</th>
+              <th align="center" class="cf-top-header">2030</th>
+              <th align="center" class="cf-top-header">2031</th>
+              <th align="center" class="cf-top-header">2032</th>
+              <th align="center" class="cf-top-header">2033</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="age">
+              <th rowspan="4">
+                年 <br />
+                齢
+              </th>
+              <td colspan="2">配偶者</td>
+              <td>30歳</td>
+              <td>31歳</td>
+              <td>32歳</td>
+              <td>33歳</td>
+              <td>34歳</td>
+              <td>35歳</td>
+              <td>36歳</td>
+              <td>37歳</td>
+              <td>38歳</td>
+              <td>39歳</td>
+            </tr>
+            <tr class="age">
+              <td colspan="2">あなた</td>
+              <td>30歳</td>
+              <td>31歳</td>
+              <td>32歳</td>
+              <td>33歳</td>
+              <td>34歳</td>
+              <td>35歳</td>
+              <td>36歳</td>
+              <td>37歳</td>
+              <td>38歳</td>
+              <td>39歳</td>
+            </tr>
+            <tr class="age">
+              <td colspan="2">第1子</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+              <td>5歳</td>
+            </tr>
+            <tr class="age-second-child">
+              <td colspan="2">第2子</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+              <td>0歳</td>
+            </tr>
+
+            <tr class="life-event">
+              <th rowspan="4">
+                ラ <br />
+                イ <br />
+                フ <br />
+                イ <br />
+                ベ <br />
+                ン<br />
+                ト
+              </th>
+              <td colspan="2">あなた</td>
+              <td>
+                結婚
+                住宅購入
+              </td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>定年退職</td>
+            </tr>
+            <tr class="life-event">
+              <td colspan="2">配偶者</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>定年退職</td>
+              <td></td>
+            </tr>
+            <tr class="life-event">
+              <td colspan="2">第1子</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>中学校入学</td>
+              <td></td>
+              <td>高校入学</td>
+              <td></td>
+              <td>大学入学</td>
+              <td></td>
+            </tr>
+            <tr class="life-event-second-child">
+              <td colspan="2">第2子</td>
+              <td>第2子誕生</td>
+              <td></td>
+              <td></td>
+              <td>幼稚園入学</td>
+              <td></td>
+              <td>小学校入学</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+
+            <tr class="income">
+              <th rowspan="6">
+                収 <br />
+                入
+              </th>
+              <td rowspan="2">年収</td>
+              <td>あなた</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+              <td>584</td>
+            </tr>
+            <tr class="income">
+              <td>配偶者</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr class="income">
+              <td rowspan="2">年金</td>
+              <td>あなた</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr class="income">
+              <td>配偶者</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr class="income">
+              <td colspan="2">その他収入</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+            <tr class="income-total">
+              <th colspan="2">収入合計</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+              <th>584</th>
+            </tr>
+
+            <tr class="spending">
+              <th rowspan="8">
+                支 <br />
+                出
+              </th>
+              <td colspan="2">生活費</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+              <td>276</td>
+            </tr>
+            <tr class="spending">
+              <td colspan="2">住居費</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+            </tr>
+            <tr class="spending">
+              <td colspan="2">教育費</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+              <td>120</td>
+            </tr>
+            <tr class="spending">
+              <td colspan="2">保険料</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+            </tr>
+            <tr class="spending">
+              <td colspan="2">その他支出</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+            </tr>
+            <tr class="spending">
+              <td rowspan="2">
+                税金 <br />
+                社会保険
+              </td>
+              <td>あなた</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+              <td>23</td>
+            </tr>
+            <tr class="spending">
+              <td>配偶者</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+              <td>12</td>
+            </tr>
+            <tr class="spending-total">
+              <th colspan="2">支出合計</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+              <th>565</th>
+            </tr>
+          </tbody>
+
+          <tfoot>
+            <tr class="total-expenditure">
+              <th colspan="3">支出合計</th>
+              <td>100</td>
+              <td>100</td>
+              <td>200</td>
+              <td>100</td>
+              <td>50</td>
+              <td>100</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+            </tr>
+            <tr class="savings-a">
+              <th colspan="3">預貯金(A)</th>
+              <td>100</td>
+              <td>100</td>
+              <td>200</td>
+              <td>100</td>
+              <td>50</td>
+              <td>100</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+            </tr>
+            <tr class="assets-under-management-b">
+              <th colspan="3">運用資産(B)</th>
+              <td>100</td>
+              <td>100</td>
+              <td>200</td>
+              <td>100</td>
+              <td>50</td>
+              <td>100</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+            </tr>
+            <tr class="balance-of-assets-held-a-and-b">
+              <th colspan="3">保有資産残高(A+B)</th>
+              <td>100</td>
+              <td>100</td>
+              <td>200</td>
+              <td>100</td>
+              <td>50</td>
+              <td>100</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+            </tr>
+            <tr class="money-spent-on-operations">
+              <th colspan="3">運用に回したお金</th>
+              <td>100</td>
+              <td>100</td>
+              <td>200</td>
+              <td>100</td>
+              <td>50</td>
+              <td>100</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+              <td>75</td>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
     </div>
-
-
-
-
-    <div class="table-wrapper" >
-      <table>
-        <thead>
-          <tr class="thead-year">
-            <th colspan="3">年度</th>
-            <th align="center" class="cf-top-header">2024</th>
-            <th align="center" class="cf-top-header">2025</th>
-            <th align="center" class="cf-top-header">2026</th>
-            <th align="center" class="cf-top-header">2027</th>
-            <th align="center" class="cf-top-header">2028</th>
-            <th align="center" class="cf-top-header">2029</th>
-            <th align="center" class="cf-top-header">2030</th>
-            <th align="center" class="cf-top-header">2031</th>
-            <th align="center" class="cf-top-header">2032</th>
-            <th align="center" class="cf-top-header">2033</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="age">
-            <th rowspan="4">
-              年 <br />
-              齢
-            </th>
-            <td colspan="2">配偶者</td>
-            <td>30歳</td>
-            <td>31歳</td>
-            <td>32歳</td>
-            <td>33歳</td>
-            <td>34歳</td>
-            <td>35歳</td>
-            <td>36歳</td>
-            <td>37歳</td>
-            <td>38歳</td>
-            <td>39歳</td>
-          </tr>
-          <tr class="age">
-            <td colspan="2">あなた</td>
-            <td>30歳</td>
-            <td>31歳</td>
-            <td>32歳</td>
-            <td>33歳</td>
-            <td>34歳</td>
-            <td>35歳</td>
-            <td>36歳</td>
-            <td>37歳</td>
-            <td>38歳</td>
-            <td>39歳</td>
-          </tr>
-          <tr class="age">
-            <td colspan="2">第1子</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-            <td>5歳</td>
-          </tr>
-          <tr class="age-second-child">
-            <td colspan="2">第2子</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-            <td>0歳</td>
-          </tr>
-
-          <tr class="life-event">
-            <th rowspan="4">
-              ラ <br />
-              イ <br />
-              フ <br />
-              イ <br />
-              ベ <br />
-              ン<br />
-              ト
-            </th>
-            <td colspan="2">あなた</td>
-            <td>
-              結婚 <br />
-              住宅購入
-            </td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>定年退職</td>
-          </tr>
-          <tr class="life-event">
-            <td colspan="2">配偶者</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>定年退職</td>
-            <td></td>
-          </tr>
-          <tr class="life-event">
-            <td colspan="2">第1子</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td>中学校入学</td>
-            <td></td>
-            <td>高校入学</td>
-            <td></td>
-            <td>大学入学</td>
-            <td></td>
-          </tr>
-          <tr class="life-event-second-child">
-            <td colspan="2">第2子</td>
-            <td>第2子誕生</td>
-            <td></td>
-            <td></td>
-            <td>幼稚園入学</td>
-            <td></td>
-            <td>小学校入学</td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-          </tr>
-
-          <tr class="income">
-            <th rowspan="6">
-              収 <br />
-              入
-            </th>
-            <td rowspan="2">年収</td>
-            <td>あなた</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-            <td>584</td>
-          </tr>
-          <tr class="income">
-            <td>配偶者</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr class="income">
-            <td rowspan="2">年金</td>
-            <td>あなた</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr class="income">
-            <td>配偶者</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr class="income">
-            <td colspan="2">その他収入</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-            <td>0</td>
-          </tr>
-          <tr class="income-total">
-            <th colspan="2">収入合計</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-            <th>584</th>
-          </tr>
-
-          <tr class="spending">
-            <th rowspan="8"> 支 <br>
-              出</th>
-            <td colspan="2">生活費</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-            <td>276</td>
-          </tr>
-          <tr class="spending">
-            <td colspan="2">住居費</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-          </tr>
-          <tr class="spending">
-            <td colspan="2">教育費</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-            <td>120</td>
-          </tr>
-          <tr class="spending">
-            <td colspan="2">保険料</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-          </tr>
-          <tr class="spending">
-            <td colspan="2">その他支出</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-          </tr>
-          <tr class="spending">
-            <td rowspan="2">税金 <br> 社会保険</td>
-            <td>あなた</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-            <td>23</td>
-          </tr>
-          <tr class="spending">
-            <td>配偶者</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-            <td>12</td>
-          </tr>
-          <tr class="spending-total">
-            <th colspan="2">支出合計</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-            <th>565</th>
-          </tr>
-        </tbody>
-        
-        <tfoot>
-          <tr class="total-expenditure">
-            <th colspan="3">支出合計</th>
-            <td>100</td>
-            <td>100</td>
-            <td>200</td>
-            <td>100</td>
-            <td>50</td>
-            <td>100</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-          </tr>
-          <tr class="savings-a">
-            <th colspan="3">預貯金(A)</th>
-            <td>100</td>
-            <td>100</td>
-            <td>200</td>
-            <td>100</td>
-            <td>50</td>
-            <td>100</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-          </tr>
-          <tr class="assets-under-management-b">
-            <th colspan="3">運用資産(B)</th>
-            <td>100</td>
-            <td>100</td>
-            <td>200</td>
-            <td>100</td>
-            <td>50</td>
-            <td>100</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-          </tr>
-          <tr class="balance-of-assets-held-a-and-b">
-            <th colspan="3">保有資産残高(A+B)</th>
-            <td>100</td>
-            <td>100</td>
-            <td>200</td>
-            <td>100</td>
-            <td>50</td>
-            <td>100</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-          </tr>
-          <tr class="money-spent-on-operations">
-            <th colspan="3">運用に回したお金</th>
-            <td>100</td>
-            <td>100</td>
-            <td>200</td>
-            <td>100</td>
-            <td>50</td>
-            <td>100</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-            <td>75</td>
-          </tr>
-        </tfoot>
-      </table>
-    </div>
-  </div>
-</body>
-
+  </body>
 </html>
