@@ -1,0 +1,192 @@
+body {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    justify-content: center;
+    height: 200vh;
+    margin: 0;
+}
+
+.table-left{
+    width: 30%;
+    float: left;
+}
+
+.table-left table {
+    width: 100%;
+    border-collapse: 1px solid black;
+}
+
+.table-left th,
+.table-left td {
+    padding: 8px;
+    font-size: small;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.table-wrapper {
+    width: 70%;
+    float: right;
+    overflow-x: auto;
+}
+
+.table-wrapper table {
+    border-collapse: collapse;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.table-wrapper th,
+.table-wrapper td {
+    padding: 8px;
+    font-size: small;
+    text-align: center;
+}
+
+.table-wrapper th {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+tfoot th {
+    text-align: left;
+}
+
+.thead-year {
+    background-color: #d5d7d8;
+}
+
+.thead-year th {
+    border: 2px solid white;
+}
+
+.age th {
+    background-color: #9d9d9d;
+    border-bottom: 1px solid #9d9d9d !important;
+}
+
+.age th,
+.age td {
+    border: 1px solid #e8ecef;
+}
+
+.age-second-child td {
+    border: 1px solid #e8ecef;
+    border-bottom: 2px solid #b3b3b3;
+}
+
+.life-event th {
+    background-color: #ff72be;
+    border-bottom: 1px solid #ff72be !important;
+}
+
+.life-event th,
+.life-event td {
+    border: 1px solid #e8ecef;
+}
+
+.life-event-second-child td {
+    border: 1px solid #e8ecef;
+    border-bottom: 2px solid #ff72be;
+}
+
+.income th {
+    background-color: #0084ff;
+    border-bottom: 1px solid #0084ff !important;
+}
+
+.income th,
+.income td {
+    border: 1px solid #e8ecef;
+}
+
+.income-total th {
+    border: 1px solid #e8ecef;
+    color: #0084ff;
+    border-bottom: 2px solid #0084ff;
+    background-color: #ddefff;
+}
+
+.spending th {
+    background-color: #efbc00;
+    border-bottom: 1px solid black !important;
+}
+
+.spending th,
+.spending td {
+    border: 1px solid #e8ecef;
+}
+
+.spending-total th {
+    border: 1px solid #e8ecef;
+    color: #ab8600;
+    border-bottom: 1px solid black;
+    background-color: #fff8de;
+}
+
+.total-expenditure th {
+    background-color: #e8ecef;
+    border-bottom: 1px solid black !important;
+}
+
+.total-expenditure td {
+    border: 1px solid #e8ecef;
+    font-weight: bold;
+    border-bottom: 1px solid black !important;
+}
+
+.savings-a th {
+    background-color: #0caf60;
+    color: #ffffff;
+    border-bottom: 1px solid #0caf60 !important;
+}
+
+.savings-a td {
+    border: 1px solid #e8ecef;
+    font-weight: bold;
+    color: #0caf60;
+    border-bottom: 1px solid #0caf60 !important;
+}
+
+.assets-under-management-b th {
+    background-color: #8c62ff;
+    color: #ffffff;
+    border-bottom: 1px solid #8c62ff !important;
+}
+
+.assets-under-management-b td {
+    border: 1px solid #e8ecef;
+    font-weight: bold;
+    color: #8c62ff;
+    border-bottom: 1px solid #8c62ff !important;
+}
+
+.balance-of-assets-held-a-and-b th {
+    background-color: #003566;
+    color: #ffffff;
+    border-bottom: 1px solid #003566 !important;
+}
+
+.balance-of-assets-held-a-and-b td {
+    border: 1px solid #e8ecef;
+    font-weight: bold;
+    color: #003566;
+    border-bottom: 1px solid #003566 !important;
+}
+
+.money-spent-on-operations th {
+    background-color: #eaeaea;
+    border-bottom: 1px solid #e8ecef !important;
+}
+
+.money-spent-on-operations td {
+    border: 1px solid #e8ecef;
+    font-weight: bold;
+    border-bottom: 1px solid #e8ecef !important;
+}

@@ -5,187 +5,34 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>demmo</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="csss.css" />
   <style>
-    body {
-      display: flex;
-      align-items: center; 
-      font-family: Arial, sans-serif;
-      margin: 0;
-      justify-content: center;
-      height: 150vh; 
-      margin: 0;
-    }
-
-    h1 {
-      font-size: 24px;
-    }
-
-    p {
-      font-size: 16px;
-    }
-
-    .table-wrapper {
-      overflow-x: auto;
-    }
-
-    table {
-      border-collapse: collapse;
-      border-left: 2px solid white;
-      border-right: 2px solid white;
-    }
-
-    th,
-    td {
-      padding: 8px;
-      font-size: small;
-      text-align: center;
-    }
-
-    th {
-      font-size: medium;
-      font-weight: bold;
-    }
-
-    .center {
-      text-align: center;
-    }
-
-    tfoot th {
-      text-align: left;
-    }
-
-    .thead-year {
-      background-color: #D5D7D8;
-    }
-
-    .thead-year th {
-      border: 2px solid white;
-    }
-
-    .age th {
-      background-color: #9D9D9D;
-      border-bottom: 1px solid #9D9D9D !important;
-    }
-
-    .age th, .age td {
-      border: 1px solid #E8ECEF;
-    }
-
-    .age-second-child td{
-      border: 1px solid #E8ECEF;
-      border-bottom: 2px solid #B3B3B3;
-    }
-
-    .life-event th {
-      background-color: #FF72BE;
-      border-bottom: 1px solid #FF72BE !important;
-    }
-
-    .life-event th, .life-event td {
-      border: 1px solid #E8ECEF;
-    }
-
-    .life-event-second-child td{
-      border: 1px solid #E8ECEF;
-      border-bottom: 2px solid #FF72BE;
-    }
-
-    .income th{
-      background-color: #0084FF;
-      border-bottom: 1px solid #0084FF !important;
-    }
-    .income th, .income td {
-      border: 1px solid #E8ECEF;
-    }
-    .income-total th {
-      border: 1px solid #E8ECEF;
-      color: #0084FF;
-      border-bottom: 2px solid #0084FF;
-      background-color: #DDEFFF;
-    }
-
-    .spending th {
-      background-color: #EFBC00;
-      border-bottom: 1px solid black !important;
-    }
-
-    .spending th, .spending td {
-      border: 1px solid #E8ECEF;
-    }
-
-    .spending-total th {
-      border: 1px solid #E8ECEF;
-      color: #AB8600;
-      border-bottom: 1px solid black;
-      background-color: #FFF8DE;
-    }
-
-    .total-expenditure th {
-      background-color: #E8ECEF;
-      border-bottom: 1px solid black !important;
-    }
-
-    .total-expenditure td {
-      border: 1px solid #E8ECEF;
-      font-weight: bold;
-      border-bottom: 1px solid black !important;
-    }
-
-    .savings-a th {
-      background-color: #0CAF60;
-      color: #FFFFFF;
-      border-bottom: 1px solid #0CAF60 !important;
-    }
-
-    .savings-a td {
-      border: 1px solid #E8ECEF;
-      font-weight: bold;
-      color: #0CAF60;
-      border-bottom: 1px solid #0CAF60 !important;
-    }
     
-    .assets-under-management-b th {
-      background-color: #8C62FF;
-      color: #FFFFFF;
-      border-bottom: 1px solid #8C62FF !important;
-    }
-
-    .assets-under-management-b td {
-      border: 1px solid #E8ECEF;
-      font-weight: bold;
-      color: #8C62FF;
-      border-bottom: 1px solid #8C62FF !important;
-    }
-
-    .balance-of-assets-held-a-and-b th {
-      background-color: #003566;
-      color: #FFFFFF;
-      border-bottom: 1px solid #003566 !important;
-    }
-
-    .balance-of-assets-held-a-and-b td {
-      border: 1px solid #E8ECEF;
-      font-weight: bold;
-      color: #003566;
-      border-bottom: 1px solid #003566 !important;
-    }
-
-    .money-spent-on-operations th {
-      background-color: #EAEAEA;
-      border-bottom: 1px solid #E8ECEF !important;
-    }
-    .money-spent-on-operations td {
-      border: 1px solid #E8ECEF;
-      font-weight: bold;
-      border-bottom: 1px solid #E8ECEF !important;
-    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <div class="table-wrapper">
+    <div class="table-left">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3">年度</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>年齢</th>
+            <td colspan="2">配偶者</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+
+
+    <div class="table-wrapper" >
       <table>
         <thead>
           <tr class="thead-year">
@@ -202,7 +49,6 @@
             <th align="center" class="cf-top-header">2033</th>
           </tr>
         </thead>
-
         <tbody>
           <tr class="age">
             <th rowspan="4">
